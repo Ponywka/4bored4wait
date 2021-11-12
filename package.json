@@ -1,0 +1,26 @@
+{
+  "name": "4bored4wait",
+  "version": "1.0.0",
+  "description": "Waiting proxy-server for 2B2T",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ponywka/4bored4wait.git"
+  },
+  "keywords": [
+    "2b2t"
+  ],
+  "author": "Ponywka",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Ponywka/4bored4wait/issues"
+  },
+  "homepage": "https://github.com/Ponywka/4bored4wait#readme",
+  "dependencies": {
+    "@rob9315/mcproxy": "^0.2.3",
+    "minecraft-protocol": "^1.27.2"
+  }
+}
