@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Ponywka/4bored4wait#readme",
   "dependencies": {
     "@rob9315/mcproxy": "^0.2.3",
+    "dotenv": "^10.0.0",
     "minecraft-protocol": "^1.27.2"
   }
 }
