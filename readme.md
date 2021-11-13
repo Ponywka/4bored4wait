@@ -6,6 +6,8 @@ I really do not like how 2bored2wait is implemented, so I decided to write my ow
 
 To Do:
 - [ ] Password auth (Entering a password in the chat)
+- [ ] Auto-reconnect
+- [ ] Anti-AFK
 - [ ] Calculate ETA
 - [ ] Telegram notification
 - [ ] Config file
