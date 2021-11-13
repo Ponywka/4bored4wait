@@ -7,8 +7,8 @@ let client2b2t, proxy;
 class Client2b2t extends EventEmitter{
     #options = {
         username: 'username',
-        host: '2b2t.org',
-        port: 25565,
+        host: process.env.SERVER_HOST,
+        port: process.env.SERVER_PORT,
         version: '1.12.2',
         profilesFolder: './accounts'
     };
@@ -156,7 +156,7 @@ function start2b2t(){
         client2b2t.disconnect();
         client2b2t = null;
     }
-    mc.ping({host: '2b2t.org', port: 25565}, (err) => {
+    mc.ping({host: process.env.SERVER_HOST, port: process.env.SERVER_PORT}, (err) => {
         if(err){
             console.error('Ping not send to 2b2t!');
             reconnectTimeouted();
